@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.carousel-item {
+    position: relative;
+    min-height: 100vh;
+}
+
+
+.hero-text {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slider1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.01),rgba(0, 0, 0, 0.4)), url(../images/banner-bg01.jpg);
+    background-size: cover;
+    background-position: center;
+  
+}
+.slider2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.01),rgba(0, 0, 0, 0.4)), url(../images/banner-bg02.jpg);
+    background-size: cover;
+    background-position: center;
+  
+}
+.slider3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.01),rgba(0, 0, 0, 0.4)), url(../images/banner-bg03.jpg);
+    background-size: cover;
+    background-position: center;
+  
+}

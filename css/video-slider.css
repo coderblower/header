@@ -1,0 +1,29 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner {
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+
+.hero-text {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.banner video {
+    position: absolute;
+    top : 50%;
+    left : 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+}
